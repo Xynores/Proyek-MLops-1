@@ -11,7 +11,7 @@ def run_preprocessing():
     
     # 1. Memuat Dataset
     # Pastikan file CStrain.csv di-push juga ke repo GitHub Anda!
-    dataset_path = 'CStrain.csv'
+    dataset_path = 'CStrain.zip'
     if not os.path.exists(dataset_path):
         print(f"Error: File {dataset_path} tidak ditemukan!")
         return
